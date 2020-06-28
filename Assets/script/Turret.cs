@@ -6,6 +6,8 @@ using UnityEngine;
 
 public class Turret : MonoBehaviour
 {
+    public virtual void AttackType() { }
+    
     private List<GameObject> enemys = new List<GameObject>(); //List储存进入攻击范围的敌人序号
     void OnTriggerEnter(Collider col)
     {

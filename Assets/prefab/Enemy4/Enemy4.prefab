@@ -330,9 +330,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 775dbd4c8753ec546a3476c29892a043, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 23
-  hp: 350
-  addition: 20
+  speed: 25
+  hp: 400
+  addition: 15
   explosionEffect: {fileID: 1733620445297671218, guid: ae534ff1b12b40d4a9c91b53d0881175,
     type: 3}
 --- !u!1 &7625840135120368634

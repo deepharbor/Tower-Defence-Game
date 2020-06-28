@@ -20,6 +20,7 @@ public class Enemy : MonoBehaviour
     private int index = 0; 
 
 
+
     // Start is called before the first frame update
     void Start()
     {

@@ -16,6 +16,8 @@ public class Bullet : MonoBehaviour
 
     private Transform target; //敌人目标，默认进入攻击范围的第一个
     
+    public virtual void toAttack() { } //不同子弹攻击的虚函数
+
     public void SetTarget(Transform _target)
     {
         this.target = _target;
